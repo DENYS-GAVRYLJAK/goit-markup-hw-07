@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="page-header">
+    <nav  class = "container main-nav">
+      <a href="./index.html">
+        <p class = "logo" ><span class="web"> Web </span> Studio</p>
+      </a>
+      <ul class = "navigation">
+        <li><a class="navigation-link current list" href="./index.html">Cтудия</a> </li>
+        <li><a class="navigation-link list" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="navigation-link list" href="">Контакты</a></li>
+      </ul>
+    <ul class="contacts">
+        <li class="contacts-list icon-mail"><a class="link list" href="mailto:info@devstudio">
+          <!-- <svg class="icon-mail"  width="16" height="12">
+            <use href="./images/дз4/sprite.svg#icon-envelope"></use> 
+          </svg>-->
+          info@devstudio.com</a></li>
+        <li class="contacts-list icon-phone"><a class="link list phone" href="tel:+380961111111">
+          <!-- <svg class="icon-mail"  width="16" height="12">
+            <use href="./images/дз4/sprite.svg#icon-phone"></use>
+          </svg> -->
+          +38 096 111 11 11</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+
+    <main>
+
+
+      <!-- Герой -->
+      <section class="hero overlay">
+        
+          <h1 class="title">Эффективные решения <br> для вашего бизнеса</h1>
+          <button data-open-modal href="#" class="button" >Заказать услугу</button>
+        
+      <!-- Поставить фон -->
+      </section>
+      
+      <!-- Преимущества -->
+      <section>
+        <div class="container">
+          <!-- Нужно скрыть в СSS -->
+          <h2 hidden class="title">Ключевые оссобенности</h2>
+            <!-- Картинки поставлены временно -->
+          
+          <ul class="features">
+
+                <li class="list icon-satelite">
+                <h3 class="bullet-points"> Внимание к деталям </h3>
+                  <p class="description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+
+                <li class="list icon-clock">
+                <h3 class="bullet-points"> Пунктуальность </h3>
+                  <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+
+                <li class="list icon-diagram">              
+                <h3 class="bullet-points"> Планирование</h3>
+                  <p class="description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                
+                <li class="list icon-astronauts">             
+                <h3 class="bullet-points"> Современные технологии </h3>
+                <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+
+          </ul>
+        </div>
+      </section>
+        <!-- Работы -->
+      <section>
+        <div class="container">
+          <h2 class="title what-we-do">Чем мы занимаемся</h2>
+          <ul class="list-works">
+            <li class="what-we-do_list">
+              <img src="./img/works/img1.jpg" alt="десктопные-приложения" width="370" >
+              <div class="overlay-wat-we-do">
+                <h3 class = "what-we-do" >Десктопные приложения</h3>
+              </div>
+            </li>
+            <li class="what-we-do_list"> 
+              <img src="./img/works/img2.jpg" alt="мобильные-приложения" width="370">
+              <div class="overlay-wat-we-do">
+                <h3 class = "what-we-do" >Мобильные приложения</h3>
+              </div> 
+            </li>
+            <li class="what-we-do_list"> 
+              <img src="./img/works/img3.jpg" alt="дизайнерские решения" width="370">
+              <div class="overlay-wat-we-do">
+                <h3 class = "what-we-do" >Дизайнерские решения</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </section>
+        <!-- Команда -->
+      <section>
+        <div class="container">
+          <h2 class="title team">Наша команда</h2>
+        <ul class = "list-team">
+          <li class="team-card">
+            <img class="img-team" src="./img/team/Игорь.jpg" alt="Игорь Демьяненко" width="270" >
+            <h3 class="name">Игорь Демьяненко</h3>
+            <p class="profession">Product Designer</p>
+            <ul class="social-networks">
+              <li><a class="link-social instagram" href=""></a></li>
+              <li><a class="link-social  twitter" href=""></a></li>
+              <li><a class="link-social facebook" href=""></a></li>
+              <li><a class="link-social linkedin" href=""></a></li>
+            </ul>
+          </li>
+          <li class="team-card">
+            <img class="img-team" src="./img/team/Ольга.jpg" alt="Ольга Репина" width="270">
+            <h3 class="name">Ольга Репина</h3>
+            <p class="profession" >Front Developer</p>
+            <ul class="social-networks">
+              <li><a class="link-social instagram" href=""></a></li>
+              <li><a class="link-social twitter " href=""></a></li>
+              <li><a class="link-social facebook " href=""></a></li>
+              <li><a class="link-social linkedin" href=""></a></li>
+            </ul>
+          </li>
+          <li class="team-card">
+            <img class="img-team" src="./img/team/Николай.jpg" alt="Николай Тарасов" width="270">
+            <h3 class="name">Николай Тарасов</h3>
+            <p class="profession" >Marketing</p>
+            <ul class="social-networks">
+              <li><a class="link-social instagram" href=""></a></li>
+              <li><a class="link-social twitter" href=""></a></li>
+              <li><a class="link-social facebook" href=""></a></li>
+              <li><a class="link-social linkedin" href=""></a></li>
+            </ul>
+          </li>
+          <li class="team-card">
+            <img class="img-team" src="./img/team/Михаил.jpg" alt="Михаил Ермаков" width="270">
+            <h3 class="name">Михаил Ермаков</h3>
+            <p class="profession" >UI Designer</p>
+            <ul class="social-networks">
+              <li><a class="link-social instagram" href=""></a></li>
+              <li><a class="link-social twitter" href=""></a></li>
+              <li><a class="link-social facebook" href=""></a></li>
+              <li><a class="link-social linkedin" href=""></a></li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+      </section>
+      
+
+      <section>
+        <div class="container">
+          <h2 class="title clients">Постоянные клиенты</h2>
+
+          <ul class="list-logos">
+            <li><a href=""><img src="./img/logos/logo 1.svg" alt=""></a></li>
+            <li><a href=""><img src="./img/logos/logo 2.svg" alt=""></a></li>
+            <li><a href=""><img src="./img/logos/logo 3.svg" alt=""></a></li>
+            <li><a href=""><img src="./img/logos/logo 4.svg" alt=""></a></li>
+            <li><a href=""><img src="./img/logos/logo 5.svg" alt=""></a></li>
+            <li><a href=""><img src="./img/logos/logo 6.svg" alt=""></a></li>
+          </ul>
+        </div>
+        </section>
+
+       
+        
+
+      
+      
+      
+    </main>
+  
+
+    <footer>
+      <div class="container-footer">
+        <div>
+          <p class = "logo" ><span class="web"> Web </span>  Studio  <br></p>
+          <address>г. Киев, пр-т Леси Украинки, 26 <br> </address> 
+          <p class = "mail-phone">info@example.com </p>
+          <p> +38 099 111 11 11 </p>
+        </div>
+        <div>
+        <b class = "join">Присоединяйтесь</b>
+        <ul class="join-main-list">
+          <li class="join-list Instagram" ><a href="" aria-label="Ccылка на Instagram">
+            <svg class="button-icon" width="20" height="20">
+              <use href="./images/дз4/sprite.svg#icon-instagram"></use>
+            </svg>
+        </a></li>
+          <li class="join-list Twitter" ><a href="" aria-label="Ccылка на Twitter"><svg class="button-icon" width="20" height="20">
+            <use href="./images/дз4/sprite.svg#icon-tvitter"></use>
+          </svg></a>
+            </li>
+          <li class="join-list Facebook" ><a href="" aria-label="Ссылка на Facebook">
+            <svg class="icon-soc-footer"  width="20" height="20" >
+            <use href="./images/дз4/sprite.svg#icon-facebook"></use>
+          </svg></a></li>
+          <li class="join-list LinkedIn" ><a href="" aria-label="Ссылка на LinkedIn">
+            <svg class="icon-soc-footer"  width="20" height="20" >
+              <use href="./images/дз4/sprite.svg#icon-linkedin"></use>
+            </svg>
+          </a></li>
+        </ul>
+        </div>
+        <div>
+          <form>
+            
+        <label class = "subscribe"> Подпишитесь на рассылку</label>
+        <ul class = "subscribe-list">
+          <li><input class = "subscribe-mail" type="mail"></li>
+          <li><button class = "subscribe-btn" type = "submit">Подписаться</button></li>
+        </ul>
+        
+          </form>
+        
+        </div>
+      </div>
+    </footer>
+
+    <!-- Модальное окно -->
+
+    <div class="backdrop is-hidden" data-backdrop>
+      <div  class="modal">
+        <button class="btn-modal" data-close-modal>
+          <img src="./img/modal-close.svg" alt="">
+        </button>
+        <div class="container-modal">
+        <form>
+          <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
+
+          
+
+          <label class="form-field">
+            <input class="form-input" type="text" name="name" id="name"  placeholder=" " >
+            <span class="form-label">Имя</span>
+          </label>           
+            
+          
+            
+
+          
+          <div class="form-field">
+         
+            <input  class="form-input" type="text" name="tel" id="tel"  placeholder=" ">
+            <label class="form-label" for="tel">Телефон</label>
+          </div>
+
+          <div class="form-field">
+                   
+            <input  class="form-input" type="mail" name="mail" id="mail" placeholder=" " >
+            <label class="form-label"  for="mail">Почта</label> 
+          </div>
+          <!-- ========================= -->
+            <!-- <ul class="group-list">
+              <li><input type="checkbox" name="languages" value="" id="html" checked>
+                <label for="html">HTML</label></li>
+              <li><input type="checkbox" name="languages" value="" id="css" checked>
+                <label for="css">CSS</label></li>
+            </ul>
+           
+          <div role="group">
+            <input type="checkbox" name="languages" value="" id="html" checked>
+            <label for="html">HTML</label>
+
+            <input type="checkbox" name="languages" value="" id="css" checked>
+            <label for="css">CSS</label>
+            <br/>
+          
+
+
+          <div role="group"> 
+            <input type="radio" name="languages" id="html">
+            <label for="html">html</label>
+
+            <input type="radio" name="languages" id="html" checked>
+            <label for="css">css</label>
+          </div> -->
+          <!-- ========================= -->
+          <div class="form-field">
+          <label for="comment">Комментарий</label>
+        
+          
+          <textarea class="field-comment" name="comment" id="comment" cols="" rows="10px" placeholder="Введите текст"></textarea>
+          </div>
+
+          
+          
+          <input type="checkbox" name="policy" id="policy">
+          <label for="policy">Cоглашаюсь с рассылкой и принимаю </label> <a href=""><span class="policy-doc">  условия договора  </span></a>
+        
+          <br/>
+          <button class="btn-submit" type="submit" >Отправить</button>
+          <br/>
+
+
+        </form>
+      </div>
+        
+      </div>
+
+      </div>
+
+      <!-- ------------ -->
+    
+    </div>
+      <script>
+        const { height: pageHeaderHeight } = document
+          .querySelector(".page-header")
+          .getBoundingClientRect();
+
+        document.body.style.paddingTop = `${pageHeaderHeight}px`;
+      </script>
+
+      <script>
+        const refs = {
+          openModalBtn: document.querySelector("[data-open-modal]"),
+          closeModalBtn: document.querySelector("[data-close-modal]"),
+          backdrop: document.querySelector("[data-backdrop]"),
+        };
+
+        refs.openModalBtn.addEventListener("click", toggleModal);
+        refs.closeModalBtn.addEventListener("click", toggleModal);
+
+        refs.backdrop.addEventListener("click", logBackdropClick);
+
+        function toggleModal() {
+          refs.backdrop.classList.toggle("is-hidden");
+        }
+
+        function logBackdropClick() {
+          console.log("Это клик в бекдроп");
+        }
+      </script>
+  </body>
+
+    <!-- Вывод иконок -->
+<svg class="inline-svg-icon browser">
+  <use xlink:href="#browser"></use>
+</svg>
+<!-- Вывод иконок -->
+
+</html>
